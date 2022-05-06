@@ -3,18 +3,40 @@ body{
     font-family: 'Roboto';
 }
 
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+} 
+
 ul{
     list-style-type: none;
 }
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Header */
+
+header{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-container{
+    display: flex;
+    align-items: center; 
+}
 
 .web{
     color: #2196F3;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.83;
-   
+    line-height: 31px;
 }
 
 .studio{
@@ -22,11 +44,28 @@ ul{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.83;
+    line-height: 31px;
+    margin-right: 101px;
+}
+
+.header-list{
+    display: flex;
+    margin-right: 42px;
+    justify-content: center;
 }
 
 
-.lihk{
+.list{
+    margin: 0;
+    padding: 0;
+    margin-right: 42px;
+}
+
+.list:last-child{
+    margin-right: 0;
+}
+
+.link{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -35,25 +74,19 @@ ul{
     color: #212121;
 }
 
+.link:hover{
+    color: #2196F3;
+}
+
 a{
     text-decoration: none;
 }
 
-.link:hover{
-    color: #2196F3; 
+ul{
+    list-style-type: none;
 }
-
-/* .link-2:hover{
-    color: #2196F3;
-}
-
-.link-3:hover{
-    color: #2196F3;
-} */
 
 .email, .tel{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -61,10 +94,28 @@ a{
     color: #757575;
 }
 
-/* Hero */
-.hero{
-    background: #2F303A;
+.email:hover, .tel:hover{
+    color: #2196F3;
 }
+
+.email{
+    margin-right: 50px;
+}
+
+
+.header-navigation{
+    margin-left: auto;
+}
+
+/* Hero */
+
+.hero{
+    height: 600px;
+    background: #2F303A;
+    display: flex;
+    align-items: center;
+}
+
 
 h1{
     font-family: 'Roboto';
@@ -76,6 +127,9 @@ h1{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 0 232px ; 
 }
 
 .button, button:focus{
@@ -89,19 +143,49 @@ h1{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 
-.description-item{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+.button{
+    display: flex;
+    
+}
+
+/* Discription */
+
+.discription{
+    display: flex;
+}
+
+.discription-list{
+    margin-right: 30px;
+}
+
+/* Image */
+
+.image-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 154px;
+}
+
+/*  Team  */
+
+.team{
+    background: #F5F4FA;
+    height: 648px;
+}
+
+.teachers{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.teacher-item{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .item-text{
@@ -119,6 +203,10 @@ h2{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+
+    padding-top: 94px;
+    padding-bottom: 50px;
+
 }
 
 .teacher-name-1, .teacher-name-2, .teacher-name-3, .teacher-name-4{
@@ -128,6 +216,9 @@ h2{
     text-align: center;
     letter-spacing: 0.03em; 
     color: #212121;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .teacher-work-1, .teacher-work-2, .teacher-work-3, .teacher-work-4{
@@ -138,13 +229,21 @@ h2{
     letter-spacing: 0.03em;
     color: #757575;
 
+    margin-bottom: 30px;
+
 }
 
 /* Footer */
 
 .footer{
     background: #2F303A;
-
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 215px;
 }
 
 .studio-footer{
@@ -152,8 +251,9 @@ h2{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.83;
+    line-height: 31px;
 }
+
 
 .adres{
     font-style: normal;
@@ -162,6 +262,7 @@ h2{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 9px;
 }
 
 .footer-email, .footer-tel{
@@ -169,6 +270,11 @@ h2{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6); 
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    margin-bottom: 9px;
 }
 
+.footer-tel{
+    margin-bottom: 9px;
+}
