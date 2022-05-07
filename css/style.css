@@ -107,6 +107,7 @@ ul{
     margin-left: auto;
 }
 
+
 /* Hero */
 
 .hero{
@@ -114,8 +115,30 @@ ul{
     background: #2F303A;
     display: flex;
     align-items: center;
+    margin-bottom: 94px;
 }
 
+.button, button:focus{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+ 
+    color:#FFFFFF ;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+
+    display: flex;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: #188CE8;
+}
 
 h1{
     font-family: 'Roboto';
@@ -127,29 +150,13 @@ h1{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    display: flex;
-    align-items: center;
     margin: 0 232px ; 
 }
 
-.button, button:focus{
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-
-    color:#FFFFFF ;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
+.button-text{
+    padding: 9.75px 31px;
 }
 
-.button{
-    display: flex;
-    
-}
 
 /* Discription */
 
