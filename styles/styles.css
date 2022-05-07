@@ -7,7 +7,10 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 } 
 
-/* Header */
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .container{
     width: 1200px;
@@ -17,6 +20,9 @@ h1, h2, h3, h4, h5, h6, p{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Header */
 
 header{
     border-bottom: 1px solid #ECECEC;
@@ -98,7 +104,6 @@ ul{
     margin-right: 50px;
 }
 
-
 .header-navigation{
     margin-left: auto;
 }
@@ -106,9 +111,9 @@ ul{
 /* Buttons */
 
 .button{
-    margin-top: 100px;
     margin-bottom: 50px;
 
+    padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
 
@@ -120,8 +125,6 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;  
-
-    border-radius: 4px;
     margin-right: 8px;
 
     border-color: transparent;
@@ -147,17 +150,22 @@ ul{
     justify-content: center;
 }
 
-
-/* Photo discription */
+/* Photo  */
 
 .main-photo{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:space-between;
+    margin: 0;
+}
+
+.photo-discr{
+    padding: 20px 24px;
+    background: #E5E5E5
 }
 
 .photo{
+    margin-right: 5px;
     margin-bottom: 30px;
 }
 
@@ -169,7 +177,7 @@ h3{
     line-height: 2;  
     letter-spacing: 0.06em;
     color: #212121;
-    background: #E5E5E5
+    
 }
 
 p{
@@ -181,19 +189,16 @@ p{
  
     letter-spacing: 0.03em;
     color: #757575;
-    background: #E5E5E5
 }
 
 /* Footer */
 .footer{
     background: #2F303A;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .studio-footer{
@@ -212,7 +217,9 @@ p{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+
     margin-bottom: 9px;
+    margin-top: 20px;
 }
 
 .footer-email, .footer-tel{
@@ -229,13 +236,6 @@ p{
     margin-bottom: 9px;
 }
 
-.footer-tel:hover{
+.footer-tel:hover, .footer-email:hover{
     color: #2196F3;
 }
-
-.footer-email:hover{
-    color: #2196F3;
-}
-
-
-

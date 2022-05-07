@@ -11,6 +11,11 @@ ul{
     list-style-type: none;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .container{
     width: 1200px;
     padding-left: 15px;
@@ -115,7 +120,23 @@ ul{
     background: #2F303A;
     display: flex;
     align-items: center;
-    margin-bottom: 94px;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 696px;
+    margin-bottom: 30px;
 }
 
 .button, button:focus{
@@ -134,23 +155,11 @@ ul{
 
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 .button:hover{
     background-color: #188CE8;
-}
-
-h1{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 0 232px ; 
 }
 
 .button-text{
@@ -160,6 +169,7 @@ h1{
 
 /* Discription */
 
+
 .discription{
     display: flex;
 }
@@ -168,12 +178,36 @@ h1{
     margin-right: 30px;
 }
 
+.description-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.item-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    color: #757575;  
+}
+
 /* Image */
 
 .image-list{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 154px;
+    margin: 0;
 }
 
 /*  Team  */
@@ -211,9 +245,12 @@ h2{
     letter-spacing: 0.03em;
     color: #212121;
 
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
 
+.teacher-discr{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .teacher-name-1, .teacher-name-2, .teacher-name-3, .teacher-name-4{
@@ -224,7 +261,6 @@ h2{
     letter-spacing: 0.03em; 
     color: #212121;
 
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -235,22 +271,17 @@ h2{
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-
-    margin-bottom: 30px;
-
 }
 
 /* Footer */
 
 .footer{
     background: #2F303A;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .studio-footer{
@@ -261,7 +292,6 @@ h2{
     line-height: 31px;
 }
 
-
 .adres{
     font-style: normal;
     font-weight: 400;
@@ -269,6 +299,8 @@ h2{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    
+    margin-top: 20px;
     margin-bottom: 9px;
 }
 
@@ -282,14 +314,6 @@ h2{
     margin-bottom: 9px;
 }
 
-.footer-tel{
-    margin-bottom: 9px;
-}
-
-.footer-tel:hover{
-    color: #2196F3;
-}
-
-.footer-email:hover{
+.footer-tel:hover, .footer-email:hover{
     color: #2196F3;
 }
