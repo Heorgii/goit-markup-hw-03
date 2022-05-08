@@ -21,11 +21,23 @@ h1, h2, h3, h4, h5, h6, p{
     margin-right: auto;
 }
 
+main{
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Header */
 
+nav{
+    display: flex;
+    align-items: center;
+}
+
 header{
     border-bottom: 1px solid #ECECEC;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header-container{
@@ -111,8 +123,6 @@ ul{
 /* Buttons */
 
 .button{
-    margin-bottom: 50px;
-
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -148,6 +158,7 @@ ul{
 .main-buttons{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 /* Photo  */
@@ -157,6 +168,15 @@ ul{
     flex-wrap: wrap;
     align-items: center;
     margin: 0;
+    padding: 0;
+}
+
+.third{
+    margin: 0;
+}
+
+.last-photo{
+    margin-top: 0;
 }
 
 .photo-discr{
@@ -165,7 +185,7 @@ ul{
 }
 
 .photo{
-    margin-right: 5px;
+    margin-right: 20px;
     margin-bottom: 30px;
 }
 

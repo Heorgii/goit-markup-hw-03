@@ -9,6 +9,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .section{
@@ -27,8 +29,15 @@ ul{
 
 /* Header */
 
+nav{
+    display: flex;
+    align-items: center;
+}
+
 header{
     border-bottom: 1px solid #ECECEC;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header-container{
@@ -55,15 +64,16 @@ header{
 
 .header-list{
     display: flex;
+    align-items: center;
     margin-right: 42px;
-    justify-content: center;
 }
 
 
 .list{
     margin: 0;
     padding: 0;
-    margin-right: 42px;
+    padding-right: 42px;
+
 }
 
 .list:last-child{
@@ -76,7 +86,7 @@ header{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #212121;   
 }
 
 .link:hover{
@@ -111,7 +121,6 @@ ul{
 .header-navigation{
     margin-left: auto;
 }
-
 
 /* Hero */
 
@@ -204,10 +213,15 @@ h1{
 
 /* Image */
 
+.img-sect{
+    padding-top: 0;
+}
+
 .image-list{
     display: flex;
     justify-content: space-between;
     margin: 0;
+    padding: 0;
 }
 
 /*  Team  */
@@ -220,6 +234,8 @@ h1{
 .teachers{
     display: flex; 
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .teacher-item{
@@ -312,6 +328,10 @@ h2{
     color: rgba(255, 255, 255, 0.6);
     display: flex;
     margin-bottom: 9px;
+}
+
+.footer-tel{
+    margin: 0;
 }
 
 .footer-tel:hover, .footer-email:hover{
