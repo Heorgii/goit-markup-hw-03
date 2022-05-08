@@ -1,6 +1,8 @@
 body{
     font-family:  'Roboto', sans-serif;
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -164,12 +166,13 @@ ul{
 /* Photo  */
 
 .main-photo{
+    margin-right: -30px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0;
     padding: 0;
 }
+
 
 .third{
     margin: 0;
@@ -185,7 +188,7 @@ ul{
 }
 
 .photo{
-    margin-right: 20px;
+    margin-right: 30px;
     margin-bottom: 30px;
 }
 
